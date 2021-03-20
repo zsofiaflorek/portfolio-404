@@ -10,7 +10,13 @@ body{
     position: relative;
     min-height: 100%;
     padding: 0 24px 0 24px;
+    display: flex;
+    justify-content: center;
 
+}
+
+.wrapper{
+    max-width: 1200px;
 }
 
 strong{
@@ -80,4 +86,13 @@ footer{
     height: 60px;
     bottom: 0;
     padding-bottom: 24px;
+}
+
+
+@media screen and (min-width: 600px) {
+    main{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
 }
