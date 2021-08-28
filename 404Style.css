@@ -55,11 +55,12 @@ main{
     overflow: hidden;
     margin-top: 55px;
     margin-bottom: 55px;
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .image-holder > img{
    overflow: hidden;
+    width: 100%;
 }
 
 .title{
